@@ -3,6 +3,7 @@ import "./App.css";
 import Button1 from "./components/Button1";
 import Button2 from "./components/Button2";
 import styled, { css } from "styled-components";
+import TailWindComponents from "./TailwindComponents";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Button>normal버튼</Button>
         <Button primary>primary 버튼</Button>
       </Container>
+      <TailWindComponents />
     </div>
   );
 }
