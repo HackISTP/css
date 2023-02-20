@@ -11,7 +11,7 @@ function App() {
       <Button1 />
       <Button2 />
       <Container>
-        <Button>normal버튼</Button>
+        <Button>normal버튼입니다.</Button>
         <Button primary>primary 버튼</Button>
       </Container>
       <TailWindComponents />
